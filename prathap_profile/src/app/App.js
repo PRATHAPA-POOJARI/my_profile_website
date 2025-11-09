@@ -17,6 +17,7 @@ function _ScrollToTop(props) {
   }, [pathname]);
   return props.children;
 }
+
 const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
