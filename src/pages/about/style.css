@@ -98,3 +98,31 @@
         transform: translateZ(0);
     }
 }
+
+/* ===== EXPERIENCE TABLE DARK MODE FIX ===== */
+
+.table {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+    border-color: var(--text-color) !important;
+}
+
+.table th,
+.table td {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+    border-color: var(--text-color) !important;
+}
+
+.table thead th {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+.table tr {
+    border-color: var(--text-color) !important;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05) !important; /* light hover for dark mode */
+}
