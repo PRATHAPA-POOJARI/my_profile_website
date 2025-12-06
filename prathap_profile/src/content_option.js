@@ -1,13 +1,11 @@
 const logotext = "Prathap";
 const meta = {
     title: "Prathapa",
-    description: "I’m Prathapa Full stack devloper,currently working in India",
+    description: "I'm Prathapa, a Full Stack Developer currently working in India",
 };
 
-const introdata = 
-
-{
-    title: "I’m Prathapa",
+const introdata = {
+    title: "I'm Prathapa",
     animated: {
         first: "I love coding and problem-solving",
         second: "I build modern React applications",
@@ -17,29 +15,32 @@ const introdata =
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
-
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "I am a passionate MERN Stack Developer with experience in building dynamic and scalable web applications. I specialize in MongoDB, Express.js, React, and Node.js, creating efficient and high-performance solutions.  .",
+    title: "A bit about myself",
+    aboutme: "I am a passionate MERN Stack Developer with experience in building dynamic and scalable web applications. I specialize in MongoDB, Express.js, React, and Node.js, creating efficient and high-performance solutions.",
 };
-const worktimeline = [{
-        jobtitle: "React js developer",
-        where: "Banglore",
-        date: "2022",
+
+const worktimeline = [
+    {
+        company: "Bharath Electronics limited",
+        jobtitle: "React JS Developer",
+        where: "Bangalore",
+        startDate: "2022",
+        endDate: "2023",
+        date: "2022 - 2023",
     },
     {
-        jobtitle: " React js developer",
-        where: "Banglore",
-        date: "2023",
-    },
-    {
-        jobtitle: "Mern stack developer",
-        where: " Banglore",
-        date: "2024",
+        company: "Bharath Electronics limited",
+        jobtitle: "MERN Stack Developer",
+        where: "Bangalore",
+        startDate: "2024",
+        endDate: "Present",
+        date: "2024 - Present",
     },
 ];
 
-const skills = [{
+const skills = [
+    {
         name: "Javascript",
         value: 90,
     },
@@ -56,27 +57,13 @@ const skills = [{
         value: 60,
     },
     {
-        name: "Html&Css",
+        name: "HTML & CSS",
         value: 85,
     },
 ];
 
-const services = [
+const dataportfolio = [
     {
-        title: "React Development",
-        description: "Building dynamic and high-performance web applications with React. Ensuring seamless user experience with efficient state management.",
-    },
-    {
-        title: "Backend Development",
-        description: "Developing robust and scalable backend solutions with Node.js. Implementing secure APIs and database management for optimal performance.",
-    },
-    {
-        title: "MERN Development",
-        description: "Creating full-stack applications with MongoDB, Express.js, React, and Node.js. Ensuring seamless integration between frontend and backend services.",
-    }
-];
-
-const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
@@ -106,7 +93,6 @@ const dataportfolio = [{
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-
     {
         img: "https://picsum.photos/400/600/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
@@ -132,22 +118,15 @@ const dataportfolio = [{
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-    // {
-    //     img: "https://picsum.photos/400/700/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "prathappoojari697@gmail.com",
     YOUR_FONE: "8495069491",
-    description: "place: Banglore",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+    description: "Location: Bangalore",
     YOUR_SERVICE_ID: "service_1k44vtb",
     YOUR_TEMPLATE_ID: "template_kpumzzs",
-    YOUR_USER_ID: "oYMY6D_QwQCk6yeYJ ",
+    YOUR_USER_ID: "oYMY6D_QwQCk6yeYJ",
 };
 
 const socialprofils = {
@@ -156,13 +135,13 @@ const socialprofils = {
     linkedin: "https://www.linkedin.com/in/prathapa-poojari-a329a3181/",
     twitter: "https://twitter.com",
 };
+
 export {
     meta,
     dataabout,
     dataportfolio,
     worktimeline,
     skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,
